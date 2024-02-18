@@ -1,85 +1,38 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{antonazzi2024development,
+  abbr={arXiv},
+  title={Development and Adaptation of Robotic Vision in the Real-World: the Challenge of Door Detection},
+  author={Antonazzi, Michele and Luperto, Matteo and Borghese, N Alberto and Basilico, Nicola},
+  year={2024},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  html={https://doi.org/10.48550/arXiv.2401.17996},
+  selected={true},
+  abstract={Mobile service robots are increasingly prevalent in human-centric, real-world domains, operating autonomously in unconstrained indoor environments. In such a context, robotic vision plays a central role in enabling service robots to perceive high-level environmental features from visual observations. Despite the data-driven approaches based on deep learning push the boundaries of vision systems, applying these techniques to real-world robotic scenarios presents unique methodological challenges. Traditional models fail to represent the challenging perception constraints typical of service robots and must be adapted for the specific environment where robots finally operate. We propose a method leveraging photorealistic simulations that balances data quality and acquisition costs for synthesizing visual datasets from the robot perspective used to train deep architectures. Then, we show the benefits in qualifying a general detector for the target domain in which the robot is deployed, showing also the trade-off between the effort for obtaining new examples from such a setting and the performance gain. In our extensive experimental campaign, we focus on the door detection task (namely recognizing the presence and the traversability of doorways) that, in dynamic settings, is useful to infer the topology of the map. Our findings are validated in a real-world robot deployment, comparing prominent deep-learning models and demonstrating the effectiveness of our approach in practical settings.}
 }
-
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{antonazzi2023enhancing,
+  abbr={ECMR},
+  title={Enhancing Door-Status Detection for Autonomous Mobile Robots during Environment-Specific Operational Use},
+  author={Antonazzi, Michele and Luperto, Matteo and Basilico, Nicola and Borghese, N Alberto},
+  booktitle={2023 European Conference on Mobile Robots (ECMR)},
+  year={2023},
+  organization={IEEE},
+  selected={true},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  html={https://doi.org/10.1109/ECMR59166.2023.10256289},
+  abstract={Door-status detection, namely recognising the presence of a door and its status (open or closed), can induce a remarkable impact on a mobile robot's navigation performance, especially for dynamic settings where doors can enable or disable passages, changing the topology of the map. In this work, we address the problem of building a door-status detector module for a mobile robot operating in the same environment for a long time, thus observing the same set of doors from different points of view. First, we show how to improve the mainstream approach based on object detection by considering the constrained perception setup typical of a mobile robot. Hence, we devise a method to build a dataset of images taken from a robot's perspective and we exploit it to obtain a door-status detector based on deep learning. We then leverage the typical working conditions of a robot to qualify the model for boosting its performance in the working environment via fine-tuning with additional data. Our experimental analysis shows the effectiveness of this method with results obtained both in simulation and in the real-world, that also highlights a trade-off between the costs and benefits of the fine-tuning approach.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{luperto2020robot,
+  title={Robot exploration of indoor environments using incomplete and inaccurate prior knowledge},
+  author={Luperto, Matteo and Antonazzi, Michele and Amigoni, Francesco and Borghese, N Alberto},
+  journal={Robotics and Autonomous Systems},
+  volume={133},
+  pages={103622},
+  year={2020},
+  publisher={Elsevier},
+  selected={true},
+  abbr = {AURO},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  html={https://doi.org/10.1016/j.robot.2020.103622},
+  doi={10.1016/j.robot.2020.103622},
+  abstract={Exploration is a task in which autonomous mobile robots incrementally discover features of interest in initially unknown environments. We consider the problem of exploration for map building, in which a robot explores an indoor environment in order to build a metric map. Most of the current exploration strategies used to select the next best locations to visit ignore prior knowledge about the environments to explore that, in some practical cases, could be available. In this paper, we present an exploration strategy that evaluates the amount of new areas that can be perceived from a location according to a priori knowledge about the structure of the indoor environment being explored, like the floor plan or the contour of external walls. Although this knowledge can be incomplete and inaccurate (e.g., a floor plan typically does not represent furniture and objects and consequently may not fully mirror the structure of the real environment), we experimentally show, both in simulation and with real robots, that employing prior knowledge improves the exploration performance in a wide range of settings.}
 }
