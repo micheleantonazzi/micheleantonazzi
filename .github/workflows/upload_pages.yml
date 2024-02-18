@@ -88,7 +88,7 @@ jobs:
         with:
           server: mercurio.srv.di.unimi.it
           username: antonazzi
-          password: ${{secrets.password}}
+          password: ${{secrets.SFTP_PASSWORD}}
           port: 22
           uploads: |
             ./_site/ => ./public_html/
