@@ -1,6 +1,6 @@
 <div class="list-groups">
   {% for content in data[1] %}
-    <div class="list-group col-md-6">
+    <div class="list-group" style="margin-bottom: 0em">
       <table class="table-cv list-group-table">
         <tbody>
           <tr>
@@ -18,14 +18,19 @@
             {% endfor %}
             <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
           </tr>
+          <tr>
+              <td></td><td>
+                  <ul class="items">
+
           {% for item in content.keywords %}
-            <tr>
-              <td></td>
-              <td class="list-group-name">
-                <b>{{ item }}</b>
-              </td>
-            </tr>
+
+
+
+                <li>{{ item }}</li>
+
+
           {% endfor %}
+                      </ul> </td></tr>
         </tbody>
       </table>
     </div>
