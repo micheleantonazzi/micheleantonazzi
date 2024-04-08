@@ -104,21 +104,21 @@
 
   "review": [
     {
-      "name": "Program Committee member of the following conferences:",
+      "name": "Program Committee member",
       "keywords": [
-        "2024 Annual AAAI Conference on Artificial Intelligence",
-        "2023 Workshop on Autonomous Robots and Multirobot Systems (ARMS)",
-        "2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+        "Annual AAAI Conference on Artificial Intelligence - 2024",
+        "Workshop on Autonomous Robots and Multirobot Systems (ARMS) - 2023",
+        "International Conference on Autonomous Agents and Multiagent Systems (AAMAS) - 2023"
       ]
     },
     {
-      "name": "Reviewer for the following conferences:",
+      "name": "Review activities",
       "keywords": [
-        "2023 European Conference on Artificial Intelligence (ECAI)",
-        "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-        "2023 IEEE International Conference on Robotics and Automation (ICRA)",
-        "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-        "2022 International Conference on Social Robotics (ICSR)"
+        "Robotics and Automation Letters (RA-L) - 2024",
+        "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) - From 2022 to 2024",
+        "IEEE International Conference on Robotics and Automation (ICRA) - 2023, 2024",
+        "European Conference on Artificial Intelligence (ECAI) - 2023",
+        "International Conference on Social Robotics (ICSR) - 2022"
       ]
     }
   ],
