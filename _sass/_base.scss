@@ -19,6 +19,12 @@ strong {
   color: var(--global-text-color);
 }
 
+.bibliography{
+  .row{
+    margin-left: 0;
+  }
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
