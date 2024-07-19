@@ -86,9 +86,9 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: Dylan700/sftp-upload-action@latest
         with:
-          server: mercurio.srv.di.unimi.it
-          username: antonazzi
+          server: aisvm.aislab.di.unimi.it
+          username: michele
           password: ${{secrets.SFTP_PASSWORD}}
           port: 22
           uploads: |
-            ./_site/ => ./public_html/
+            ./_site/ => /var/www/antonazzi/html
