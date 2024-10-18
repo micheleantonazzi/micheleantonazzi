@@ -1,25 +1,31 @@
-@misc{antonazzi2024r2snet,
-      abbr={arXiv},
+@inproceedings{antonazzi2024r2snet,
+      abbr={IROS},
       title={R2SNet: Scalable Domain Adaptation for Object Detection in Cloud-Based Robotic Ecosystems via Proposal Refinement},
       author={Michele Antonazzi and Matteo Luperto and N. Alberto Borghese and Nicola Basilico},
       selected={true},
       html={https://doi.org/10.48550/arXiv.2403.11567},
       website={https://aislabunimi.github.io/r2snet},
       year={2024},
+      organization={IEEE},
+      booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
       bibtex_show={true},
         abstract={We introduce a novel approach for scalable domain adaptation in cloud robotics scenarios where robots rely on third-party AI inference services powered by large pre-trained deep neural networks. Our method is based on a downstream proposal-refinement stage running locally on the robots, exploiting a new lightweight DNN architecture, R2SNet. This architecture aims to mitigate performance degradation from domain shifts by adapting the object detection process to the target environment, focusing on relabeling, rescoring, and suppression of bounding-box proposals. Our method allows for local execution on robots, addressing the scalability challenges of domain adaptation without incurring significant computational costs. Real-world results on mobile service robots performing door detection show the effectiveness of the proposed method in achieving scalable domain adaptation.},
-      video={r2snet_video_extended.mp4}
+      video={r2snet_video_extended.mp4},
+      poster={IROS-2024-R2SNet-poster.pdf}
 }
 
-@misc{tellaroli2024frontierbased,
+@inproceedings{tellaroli2024frontierbased,
       title={Frontier-Based Exploration for Multi-Robot Rendezvous in Communication-Restricted Unknown Environments},
       author={Mauro Tellaroli and Matteo Luperto and Michele Antonazzi and Nicola Basilico},
+      booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
       year={2024},
       bibtex_show={true},
+      organization={IEEE},
       video={frontierbased_exploration.mp4},
-      abbr={arXiv},
+      abbr={IROS},
       website={https://aislabunimi.github.io/fberendezvous/},
       html={https://doi.org/10.48550/arXiv.2403.11617},
+      poster={2024IROS_FBRrendezvous_poster.pdf},
       abstract={Multi-robot rendezvous and exploration are fundamental challenges in the domain of mobile robotic systems. This paper addresses multi-robot rendezvous within an initially unknown environment where communication is only possible after the rendezvous. Traditionally, exploration has been focused on rapidly mapping the environment, often leading to suboptimal rendezvous performance in later stages. We adapt a standard frontier-based exploration technique to integrate exploration and rendezvous into a unified strategy, with a mechanism that allows robots to re-visit previously explored regions thus enhancing rendezvous opportunities. We validate our approach in 3D realistic simulations using ROS, showcasing its effectiveness in achieving faster rendezvous times compared to exploration strategies.},
 }
 
