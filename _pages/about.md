@@ -31,6 +31,6 @@ The perception capabilities of indoor mobile robots are affected from domain shi
 To overcome this, a robot should be able to qualify the vision modules to its operational context.
 This task is particularly challenging when the perception is distributed over the cloud
 to overcome the computational constraints of mobile robots. 
-My research investigates novel methodologies for domain adaptation to address the scalability and privacy requirements of cloud robotics.
+My research investigates novel methodologies for domain adaptation to address the scalability and privacy requirements of cloud robotics scenarios.
 <br>
 
