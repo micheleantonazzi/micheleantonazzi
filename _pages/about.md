@@ -26,7 +26,7 @@ I'm PhD student at the Applied Intelligent Systems Laboratory (AISLab) at the Un
 * **Supervisor:** Prof. [Nicola Basilico](https://basilico.di.unimi.it)
 * **Co-supervisor:** Doc. [Matteo Luperto](http://luperto.di.unimi.it)
 
-Research Topic: <b>Domain Adaptation</b> for Robotic Vision. 
+Research Topic: <b>domain adaptation</b> and <b>privacy preservation</b> for Robotic Vision. <br>
 The perception capabilities of indoor mobile robots are affected from domain shift when they are deployed in a new (and previously unseen) working environment.
 To overcome this, a robot should be able to qualify the vision modules to its operational context.
 This task is particularly challenging when the perception is distributed over the cloud
