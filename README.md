@@ -4,6 +4,9 @@
 
 [![Preview](assets/img/readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
+For run locally install jekyll from this guide and run the command
+
+```bundle exec jekyll serve --lsi```
 **A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 
 ---

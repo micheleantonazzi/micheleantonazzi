@@ -23,6 +23,14 @@
   },
   "work": [
     {
+      "name": "Dalle Molle Institute for Artificial Intelligence (IDSIA)",
+      "position": "Visiting research",
+      "startDate": "2025-06-01",
+      "endDate": "2025-09-30",
+      "summary": "Visiting research at IDSIA, Lugano, on domain adaptation for gate detection on nanodrones.",
+      "location": "Lugano<br>Switzerland"
+    },
+    {
       "name": "University of Milan",
       "position": "Research Fellow in ESSENCE H2020 Project",
       "startDate": "2022-03-01",
