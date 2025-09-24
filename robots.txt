@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://antonazzi.di.unimi.it//sitemap.xml
+Sitemap: https://micheleantonazzi.github.io/sitemap.xml
